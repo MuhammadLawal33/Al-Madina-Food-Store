@@ -923,6 +923,8 @@ function openProfile() {
   openModal(profileModal);
 }
 
+document.getElementById("current-year").textContent = new Date().getFullYear();
+
 
 // =====================
 // TRACK ORDER SYSTEM
