@@ -923,6 +923,10 @@ function openProfile() {
   openModal(profileModal);
 }
 
+// =====================
+// CURRENT YEAR SYSTEM
+// =====================
+
 document.getElementById("current-year").textContent = new Date().getFullYear();
 
 
